@@ -1,3 +1,66 @@
+body {
+    background-color: rgb(243, 236, 243);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    margin-bottom: 20px;
+}
+
 h1 {
-    color: pink;
+    color: rgb(212, 0, 255);
+    line-height: 2;
+    text-align: center;
+
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 500px;
+}
+
+form {
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    background-color: rgb(218, 161, 218);
+    margin-bottom: 50px;
+}
+
+.instruction {
+    padding: 15px;
+    border-radius: 15px;
+    width: 70%;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(204, 0, 255);
+
+}
+
+.submit-button {
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(201, 70, 253, 0.932);
+    font-size: 15px;
+    color: rgb(66, 6, 105);
+    padding: 15px 25px;
+
+}
+
+.explaination {
+    font-size: 20px;
+    background-color: rgb(255, 239, 247);
+    padding: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    border-left: 5px solid purple;
+   
+}
+
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    color: blueviolet;
 }
