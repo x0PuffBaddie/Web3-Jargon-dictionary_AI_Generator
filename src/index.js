@@ -21,7 +21,8 @@ let prompt =`Generate a web3 jargon meaning ${userInstructionInput.value}`;
 let context =`User-instruction: You are a web3 expert and your task is to explain cyrpto or web3 jargons to your student like they're 15 years old. Provide a source link as an example project to understand it more clearly`;
 let apiUrl =`https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-
+let explainationElement =document.querySelector("#explaination");
+explainationElement.classList.remove("hidden");
 
 axios.get(apiUrl).then(displayExplaination);
 

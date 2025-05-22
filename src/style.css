@@ -15,7 +15,7 @@ h1 {
 
 .container {
     margin: 50px auto;
-    max-width: 500px;
+    max-width: 1000px;
 }
 
 form {
@@ -29,7 +29,7 @@ form {
 .instruction {
     padding: 15px;
     border-radius: 15px;
-    width: 70%;
+    width: 100%;
     font-size: 15px;
     line-height: 20px;
     color: rgb(204, 0, 255);
@@ -57,6 +57,10 @@ form {
    
 }
 
+
+.hidden {
+    display: none;
+}
 
 footer {
     text-align: center;
